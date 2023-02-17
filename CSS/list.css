@@ -1,0 +1,171 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    padding: 0 30px;
+    line-height: 47px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 49px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e901';
+    font-family: 'icomoon';
+}
+
+.sk_hd img {
+    vertical-align: middle;
+    margin-bottom: 25px;
+}
+
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-right: 13px;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_bd ul li p {
+    margin: 6px 10px 10px;
+    font-size: 13px;
+}
+
+.sk_bd ul li .price {
+    margin-bottom: 5px;
+}
+
+.sk_bd ul li .price span:first-of-type {
+    margin: 0 6px 0 8px;
+    font-size: 20px;
+    color: #e60012;
+}
+
+.sk_bd ul li .price span:last-of-type {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li .number {
+    width: 290px;
+    height: 20px;
+    margin: 0 12px 9px;
+    font-size: 15px;
+}
+
+.sk_bd ul li .number .progress {
+    display: inline-block;
+    width: 132px;
+    height: 10px;
+    margin: 0 5px;
+    border: 1px solid #ed282e;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.sk_bd ul li .number .progress div {
+    width: 90%;
+    height: 8px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #ed282e;
+}
+
+.sk_bd ul li a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #b1191a;
+}
+
+.sidebar {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    margin-left: 600px;
+    width: 68px;
+    height: 138px;
+}
+
+.sidebar .top {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 3px 0;
+    text-align: center;
+    line-height: 80px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #b1191a;
+}
+
+.sidebar .top::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    border: 1px solid #fff;
+    border-left: 0;
+    border-bottom: 0;
+    transform: rotate(-45deg);
+}
+
+.sidebar .bottom {
+    width: 100%;
+    height: 50%;
+    background: url(../allImages/listImages/sidebar手机.png) no-repeat center;
+    background-color: #b1191a;
+}

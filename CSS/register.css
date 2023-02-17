@@ -1,0 +1,241 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.error {
+    color: #c81523;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../allImages/registerImages/error.png) no-repeat;
+    margin-top: -2px;
+}
+
+.success {
+    color: green;
+}
+
+.success_icon {
+    background: url(../allImages/registerImages/success.png) no-repeat;
+}
+
+.header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+/* .zhuce {
+    height: 520px;
+    margin-top: 20px;
+    border: 1px solid #ededed;
+}
+
+.zhuce_hd {
+    height: 40px;
+    line-height: 40px;
+    background-color: #ececec;
+}
+
+.newuser {
+    float: left;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.login {
+    float: right;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.login span {
+    color: #c81623;
+}
+
+.zhuce_bd {
+    text-align: center;
+}
+
+table {
+    margin: 52px auto;
+}
+
+tr {
+    display: block;
+}
+
+tr:first-child {
+    margin-left: 13px;
+}
+
+tr:nth-child(2) {
+    margin-left: -11px;
+}
+
+tr:nth-child(-n+2) {
+    margin-bottom: 20px;
+}
+
+tr:nth-child(4) {
+    position: relative;
+    width: 240px;
+    height: 42px;
+}
+
+tr:nth-child(4) td:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #b3b3b3;
+}
+
+td input {
+    width: 240px;
+    height: 35px;
+    border: 1px solid #999;
+}
+
+td span {
+    display: inline-block;
+    width: 32px;
+    height: 12px;
+}
+
+td span:first-child {
+    color: #fff;
+    background-color: #de1111;
+}
+
+.zhuce_bd div:last-child input {
+    display: block;
+    width: 200px;
+    height: 35px;
+    margin: 52px auto;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    background-color: #c81623;
+} */
+
+/* table tr:last-child td:last-child input {
+    width: 0;
+    height: 0;
+} */
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81523;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.safe {
+    padding-left: 170px;
+}
+
+.safe em {
+    padding: 0 12px;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-left: 95px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    margin: 30px 0 0 100px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer {
+    margin-top: 23px;
+}
+
+.mod_copyright {
+    text-align: center;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 5px;
+}
+
+.copyright {
+    line-height: 20px;
+}
